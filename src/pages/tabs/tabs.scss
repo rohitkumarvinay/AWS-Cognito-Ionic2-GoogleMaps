@@ -1,0 +1,75 @@
+page-tabs {
+    .tabs-ios .tabbar{
+        border-radius: 2000px;
+        width: 250%;
+        height: 700vh;
+        left: -75%;
+        top: 80vh;
+        padding: 0 75% 680.5vh;
+        background: rgba(255, 255, 255, 0.85) !important;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
+        box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    }
+    .tabs-md .tabbar{
+        border-radius: 2000px;
+        width: 250%;
+        height: 700vh;
+        left: -75%;
+        top: 80vh;
+        padding: 0 75% 680.5vh;
+        background: rgba(255, 255, 255, 0.85) !important;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip: padding-box;
+        box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    }
+    .scroll-content{
+        margin: 0!important;
+    }
+    .toolbar-background{
+        background: none!important;
+        border:none!important
+    }
+
+    div a:nth-child(2) span{
+        width: 15vh!important;
+        height: 15vh!important;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.85);
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+        font-size: 3.5em!important;
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
+        -webkit-transform: scale(1)!important;
+        transform: scale(1)!important;
+    }
+    div a:nth-child(1) span{
+        width: 10vh!important;
+        height: 10vh!important;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.85);
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+        font-size: 1.5em!important!important;
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
+    }
+    div a:nth-child(3) ion-icon{
+        width: 10vh!important;
+        min-width: 10vh!important;
+        height: 10vh!important;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.85);
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+        font-size: 2em!important!important;
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
+    }
+    .titleLogo{
+        height:10vh;
+    }
+}

@@ -1,0 +1,44 @@
+<!-- <ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Registration
+    </ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content>
+<ion-grid class="loginPage flex flexColumn flexSpaceCenter">
+    <ion-list>
+      <ion-row padding class="flexCenterCenter">
+        <ion-col width-67><img src="assets/images/logo.png" alt="" /></ion-col>
+      </ion-row>
+    </ion-list>
+    <ion-list class="width90 loginForm flex flexColumn flexCenterCenter">
+
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input [(ngModel)]="registrationUser.email" type="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input [(ngModel)]="registrationUser.password" type="password"></ion-input>
+    </ion-item>
+
+    <ion-row class="flex flexCenterCenter">
+        <ion-col width-33>
+          <button ion-button block round  color="light" (click)="onRegister()">Sign Up</button>
+        </ion-col>
+        <ion-col width-33>
+            <button ion-button block outline round color="light" (click)="navToLogin()">Sign in</button>
+        </ion-col>
+      </ion-row>
+          <button ion-button clear small (click)="navToResendCode()">Resend Code</button>
+
+  </ion-list>
+  </ion-grid>
+
+</ion-content>

@@ -1,0 +1,82 @@
+.ios, .md, .wp {
+	/*.toolbar-background-md {
+    	border-color: #fff!important;
+    	background: #fff!important;
+	}*/
+	.loginPage{
+		background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%), url(../assets/images/login-bg.jpg); 
+		background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%), url(../assets/images/login-bg.jpg); 
+		background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%), url(../assets/images/login-bg.jpg);
+		background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    height: 100vh;
+	    padding: 0;
+	}
+	.item-input ion-input, .item-input ion-textarea{
+		border-bottom:1px solid #fff;
+	}
+	.flex{
+  		display: flex;
+	}
+	.flexColumn{
+		flex-direction: column;
+	}
+	.flexCenterCenter{
+		justify-content: center;
+  		align-items: center;
+	}
+	.flexSpaceCenter{
+		justify-content: space-between;
+  		align-items: center;
+	}
+	.flexColumnCenter{
+  		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+	}
+	.flexCenter{
+  		justify-content: center;
+  		align-items: center;
+	}
+	.width100{
+		width:100%;
+	}
+	.width90{
+		width:90%;
+	}
+	.width67{
+		width:66.6666%;
+	}
+	.item-md, .list-ios ion-item-sliding{
+		background:none!important;
+	}
+	.loginPage .item-datetime .label-md, .loginPage .item-input .label-md, .loginPage .item-select .label-md{
+		color: #fff!important;
+	}
+	.list-md>.item-block:first-child, .list-md>.item-wrapper:first-child .item-block{
+		border:none!important;
+	}
+	.item-md.item-block .item-inner{
+		border:none!important;
+	}
+	.loginPage .item-label-floating .text-input-md, .loginPage .item-label-stacked .text-input-md{
+		color:#fff;
+	}
+	.item-ios, .list-ios ion-item-sliding{
+		background:none!important;
+	}
+	.loginPage .item-datetime .label-ios, .loginPage .item-input .label-ios, .loginPage .item-select .label-ios{
+		color: #fff!important;
+	}
+	.list-ios>.item-block:first-child, .list-ios>.item-wrapper:first-child .item-block{
+		border:none!important;
+	}
+	.item-ios.item-block .item-inner{
+		border:none!important;
+	}
+	.loginPage .item-label-floating .text-input-ios, .loginPage .item-label-stacked .text-input-ios{
+		color:#fff;
+	}
+}
