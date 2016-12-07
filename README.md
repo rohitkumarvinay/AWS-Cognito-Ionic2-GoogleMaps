@@ -27,7 +27,7 @@ E21 Designs
 ### Getting the code
 ```
 # Clone it from bitbucket
-git clone https://vrohitk@bitbucket.org/E21Panarome/panaromeionic.git
+git clone https://github.com/rohitkumarvinay/AWS-Cognito-Ionic2-GoogleMaps
 ```
 ```
 # Install the NPM and Bower packages
